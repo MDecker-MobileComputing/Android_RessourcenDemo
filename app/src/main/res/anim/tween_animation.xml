@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:interpolator="@android:anim/linear_interpolator"
+  android:ordering="together" >
+	
+	<translate
+		android:fromYDelta="0%"
+		android:toYDelta="60%"
+		android:duration="1500" />
+			
+	<rotate
+		android:fromDegrees="0"
+        android:toDegrees="-45"
+        android:toYScale="0.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="700"
+        android:duration="1500" />
+		
+    <alpha
+		android:fromAlpha="1.0"
+	    android:toAlpha="0.5"
+	    android:duration="1500" />
+    
+    <scale
+		android:fromXScale="1.4"
+        android:toXScale="0.0"
+        android:fromYScale="0.6"
+        android:toYScale="0.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+		android:duration="1500" />
+
+</set>
+<!-- 
+
+ XML-Format für Tween-Animationen: http://developer.android.com/guide/topics/resources/animation-resource.html#Tween
+  
+ Im Set-Tag steht mindestens eine Animation von einem der folgenden Typen: transformation, rotate, alpha (Durchsichtig werden), scale
+ 
+ Wenn mehr als eine Animation im Set-Tag definiert ist, dann kann durch Ordering-Attribut bestimmt werden, ob diese
+ gleichzeitig oder hintereinander abgespielt werden: android:ordering="together" (Default) oder android:ordering="sequentially"
+ 
+ Die Abspiel-Geschwindigkeit der Animation wird durch das Attribut "Interpolator" vom Set-Tag bestimmt:
+ Bsp.: android:interpolator="@android:anim/linear_interpolator"
+ 
+	AccelerateDecelerateInterpolator 
+	AccelerateInterpolator 	
+	AnticipateInterpolator 	
+	AnticipateOvershootInterpolator 	
+	BounceInterpolator 	
+	CycleInterpolator 	
+	DecelerateInterpolator 
+	LinearInterpolator 	
+	OvershootInterpolator
+ 
+ Angabe "duration" für einzelne Animationen in Milli-Sekunden
+
+ -->
