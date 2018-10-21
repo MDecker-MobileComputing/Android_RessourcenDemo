@@ -31,13 +31,12 @@ public class ArrayRessourcenActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_array_ressource);
-
     }
 
 
     /**
-     * Button-Event-Handler-Methode, wird in Layout-Datei über das
-     * Attribut <code>onClick</code> direkt zugewiesen.
+     * Button-Event-Handler-Methode: Zeigt zufällig ausgewähltes
+     * String-Element (Stadt) aus der Array-Ressource an.
      * <br><br>
      *
      * @param view  Button, der Event ausgelöst hat.
@@ -50,12 +49,12 @@ public class ArrayRessourcenActivity extends Activity {
 
         stringArray = res.getStringArray( R.array.staedte_in_deutschland );
 
-        int anzElement = stringArray.length;
 
-        Random random = new Random();
+        // Zufälliges Element aus Array auswählen
+        int anzElement   = stringArray.length;
+        Random random    = new Random();
         int zufallsIndex = random.nextInt( anzElement );
-
-        String stadt = stringArray[ zufallsIndex ];
+        String stadt     = stringArray[ zufallsIndex ];
 
         Toast.makeText(this, stadt, Toast.LENGTH_LONG).show();
     }

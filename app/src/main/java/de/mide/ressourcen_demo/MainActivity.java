@@ -16,6 +16,11 @@ import de.mide.ressourcen_demo.NonMainActivities.SprachanpassungsActivity;
  * App demonstriert Verwendung von verschiedenen Ressourcen.
  * <br><br>
  *
+ * Die Klasse enthält für jeden Button auf der Layout-Datei eine
+ * Event-Handler-Methode, die in der Layout-Datei mit dem Attribut
+ * <code>onClick</code> zugewiesen wird.
+ * <br><br>
+ *
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
 public class MainActivity extends Activity {
@@ -31,9 +36,7 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Button-Event-Handler-Methode, wird in Layout-Datei über das
-     * Attribut <code>onClick</code> direkt zugewiesen. Ruft die
-     * zugehörige Activity mit einem expliziten Intent auf.
+     * Button-Event-Handler-Methode, lädt {@link SprachanpassungsActivity}.
      *
      * @param view  Button, der Event ausgelöst hat.
      */
@@ -45,9 +48,7 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Button-Event-Handler-Methode, wird in Layout-Datei über das
-     * Attribut <code>onClick</code> direkt zugewiesen. Ruft die
-     * zugehörige Activity mit einem expliziten Intent auf.
+     * Button-Event-Handler-Methode, lädt {@link ShapeAnzeigeActivity}.
      *
      * @param view  Button, der Event ausgelöst hat.
      */
@@ -59,12 +60,7 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Button-Event-Handler-Methode, wird in Layout-Datei über das
-     * Attribut <code>onClick</code> direkt zugewiesen. Ruft die
-     * zugehörige Activity mit einem expliziten Intent auf.
-     * <br><br>
-     *
-     * Startet Activity mit Tween-Animation.
+     * Button-Event-Handler-Methode, lädt {@link TweenAnimationsActivity}.
      *
      * @param view  Button, der Event ausgelöst hat.
      */
@@ -76,12 +72,8 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Button-Event-Handler-Methode, wird in Layout-Datei über das
-     * Attribut <code>onClick</code> direkt zugewiesen. Ruft die
-     * zugehörige Activity mit einem expliziten Intent auf.
-     * <br><br>
-     *
-     * Startet Activity mit Frame-Animation ("Daumenkino").
+     * Button-Event-Handler-Methode, lädt {@link FrameAnimationsActivity}
+     * (mit "Daumenkino"-Animation).
      *
      * @param view  Button, der Event ausgelöst hat.
      */
@@ -91,14 +83,11 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+
     /**
-     * Button-Event-Handler-Methode, wird in Layout-Datei über das
-     * Attribut <code>onClick</code> direkt zugewiesen. Ruft die
-     * zugehörige Activity mit einem expliziten Intent auf.
-     * <br><br>
-     *
-     * Startet Activity zur zufälligen Auswahl einer Stadt
-     * aus einer Array-Ressource.
+     * Button-Event-Handler-Methode, lädt {@link ArrayRessourcenActivity}
+     * zu Anzeige einer aus einer Array-Ressource zufällig gewählten
+     * Stadt.
      *
      * @param view  Button, der Event ausgelöst hat.
      */
