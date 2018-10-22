@@ -26,16 +26,16 @@ public class FrameAnimationsActivity extends Activity {
      */
     protected AnimationDrawable _animationDrawable = null;
 
-    /** Button zum Start der Animation. */
+    /** Button zum Start der Animation; ist deaktiert während die Animation läuft. */
     protected Button _startButton = null;
 
-    /** Button zum Beenden der Animation. */
+    /** Button zum Beenden der Animation; wird erst aktiviert wenn die Animation läuft. */
     protected Button _stopButton = null;
 
 
     /**
-     * Lifecycle-Methode, lädt Layout-Datei.
-     * Füllt Member-Variable <code>_animationDrawable</code>.
+     * Lifecycle-Methode, lädt Layout-Datei und
+     * füllt Member-Variable <code>_animationDrawable</code>.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,6 +83,7 @@ public class FrameAnimationsActivity extends Activity {
             _stopButton.setEnabled(true);
         }
     }
+    
 
     /**
      * Button-Event-Handler für Beenden der Animation.
