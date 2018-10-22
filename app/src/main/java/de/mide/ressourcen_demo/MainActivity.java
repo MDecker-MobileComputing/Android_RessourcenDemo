@@ -10,6 +10,7 @@ import de.mide.ressourcen_demo.NonMainActivities.FrameAnimationsActivity;
 import de.mide.ressourcen_demo.NonMainActivities.TweenAnimationsActivity;
 import de.mide.ressourcen_demo.NonMainActivities.ShapeAnzeigeActivity;
 import de.mide.ressourcen_demo.NonMainActivities.SprachanpassungsActivity;
+import de.mide.ressourcen_demo.NonMainActivities.ZweiQualifiziererActivity;
 
 
 /**
@@ -94,6 +95,20 @@ public class MainActivity extends Activity {
     public void onButtonZufaelligeStadt(View view) {
 
         Intent intent = new Intent(this, ArrayRessourcenActivity.class);
+        startActivity(intent);
+    }
+
+
+    /**
+     * Button-Event-Handler-Methode, lädt {@link ZweiQualifiziererActivity}
+     * zu Anzeige einer aus einer Array-Ressource zufällig gewählten
+     * Stadt.
+     *
+     * @param view  Button, der Event ausgelöst hat.
+     */
+    public void onButtonZweiQualifizierer(View view) {
+
+        Intent intent = new Intent(this, ZweiQualifiziererActivity.class);
         startActivity(intent);
     }
 

@@ -39,4 +39,10 @@
         android:text="Zufällige Stadt"
         android:onClick="onButtonZufaelligeStadt" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zwei Qualifizierer"
+        android:onClick="onButtonZweiQualifizierer" />
+
 </LinearLayout>

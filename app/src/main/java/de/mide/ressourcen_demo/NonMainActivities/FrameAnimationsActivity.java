@@ -48,6 +48,7 @@ public class FrameAnimationsActivity extends Activity {
         _stopButton = findViewById(R.id.stopButton);
         _stopButton.setEnabled(false);
 
+
         ImageView imageView = findViewById(R.id.daumenkinoImageView);
 
         Drawable hintergrund = imageView.getBackground();

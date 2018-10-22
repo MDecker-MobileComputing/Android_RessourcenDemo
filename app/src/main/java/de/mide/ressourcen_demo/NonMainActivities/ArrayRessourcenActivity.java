@@ -37,7 +37,7 @@ public class ArrayRessourcenActivity extends Activity {
 
     /**
      * Button-Event-Handler-Methode, die in der Layout-Datei
-     * über das Attribut <code>nClick</code> zugewiesen wird;
+     * über das Attribut <code>onClick</code> zugewiesen wird;
      * zeigt zufällig ausgewähltes String-Element (Stadt)
      * aus der Array-Ressource <code>staedte_in_deutschlan</code> 
      * an.

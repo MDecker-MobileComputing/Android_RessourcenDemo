@@ -29,6 +29,8 @@
 
         <activity android:name=".NonMainActivities.ArrayRessourcenActivity"></activity>
 
+        <activity android:name=".NonMainActivities.ZweiQualifiziererActivity"></activity>
+
     </application>
 
 </manifest>
