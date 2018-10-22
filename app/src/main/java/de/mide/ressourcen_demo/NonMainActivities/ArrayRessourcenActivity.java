@@ -16,13 +16,14 @@ import de.mide.ressourcen_demo.R;
 
 
 /**
- * Activity zur Demonstration einer Array-Ressource.
+ * Activity zur Demonstration des Zugriffs auf die Elemente der 
+ * Array-Ressource <code>staedte_in_deutschland</code>
+ * (siehe Ressourcen-Datei <code>res/values/meine_arrays.xml</code>).
  * <br><br>
  *
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
 public class ArrayRessourcenActivity extends Activity {
-
 
     /**
      * Lifecycle-Methode, lädt Layout-Datei.
@@ -35,9 +36,11 @@ public class ArrayRessourcenActivity extends Activity {
 
 
     /**
-     * Button-Event-Handler-Methode: Zeigt zufällig ausgewähltes
-     * String-Element (Stadt) aus der Array-Ressource an.
-     * <br><br>
+     * Button-Event-Handler-Methode, die in der Layout-Datei
+     * über das Attribut <code>nClick</code> zugewiesen wird;
+     * zeigt zufällig ausgewähltes String-Element (Stadt)
+     * aus der Array-Ressource <code>staedte_in_deutschlan</code> 
+     * an.
      *
      * @param view  Button, der Event ausgelöst hat.
      */
