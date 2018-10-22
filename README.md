@@ -23,6 +23,10 @@ Identifiers (names for classes, variables and methods), (JavaDoc) comments and U
 
 <br>
 
+![Screenshot 6](screenshot_6.png) ![Screenshot 7](screenshot_7.png)
+
+<br>
+
 ----
 # License
 
