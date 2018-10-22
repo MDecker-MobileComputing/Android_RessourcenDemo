@@ -11,8 +11,8 @@ import de.mide.ressourcen_demo.R;
 
 
 /**
- * Activity zur Demonstration einer Tween-Animation.
- * Doku: <a href="https://developer.android.com/guide/topics/resources/animation-resource#Tween">hier</a>
+ * Activity zur Demonstration einer sog Tween-Animation
+ * <a href="https://developer.android.com/guide/topics/resources/animation-resource#Tween">Tween-Animation</a>.
  * <br><br>
  *
  * This project is licensed under the terms of the BSD 3-Clause License.
