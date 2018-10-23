@@ -23,6 +23,9 @@ public class FrameAnimationsActivity extends Activity {
     /**
      * Objekt repräsentiert eine nach dem Daumenkino-Prinzip (Frame-Animation)
      * animierbare Grafik; wird in der Methode <code>onCreate()</code> gefüllt.
+     * Die Animation wird durch Aufruf der Methode {@link AnimationDrawable#start()}
+     * gestartet und durch Aufruf der methode {@link  AnimationDrawable#stop()}
+     * wieder beendet.
      */
     protected AnimationDrawable _animationDrawable = null;
 
@@ -43,33 +46,33 @@ public class FrameAnimationsActivity extends Activity {
         setContentView(R.layout.activity_animation_frame);
 
 
-        _startButton = findViewById(R.id.startButton);
-
-        _stopButton = findViewById(R.id.stopButton);
+        _startButton = findViewById( R.id.startButton );
+        _stopButton  = findViewById( R.id.stopButton  );
+        
         _stopButton.setEnabled(false);
 
 
-        ImageView imageView = findViewById(R.id.daumenkinoImageView);
-
+        ImageView imageView  = findViewById( R.id.daumenkinoImageView );
         Drawable hintergrund = imageView.getBackground();
 
         if (hintergrund instanceof AnimationDrawable) {
 
-            _animationDrawable = (AnimationDrawable)hintergrund;
+            _animationDrawable = (AnimationDrawable) hintergrund;
 
         } else {
 
             _startButton.setEnabled(false);
-            Toast.makeText(
-                    this,
-                    "Hintergrund-Bild ist kein AnimationDrawable",
-                    Toast.LENGTH_LONG ).show();
+            Toast.makeText( this,                    
+                            "FEHLER: Hintergrund-Bild ist kein AnimationDrawable",
+                            Toast.LENGTH_LONG ).show();
         }
     }
 
 
     /**
-     * Button-Event-Handler für Starten der Animation.
+     * Button-Event-Handler für Starten der Animation;
+     * aktiviert auch "Stopp"-Button und deaktiviert
+     * den Start-Button (der das Event ausgelöst hat).
      * <br><br>
      *
      * @param view  Button, der Event ausgelöst hat.
@@ -87,7 +90,10 @@ public class FrameAnimationsActivity extends Activity {
     
 
     /**
-     * Button-Event-Handler für Beenden der Animation.
+     * Button-Event-Handler für Beenden der Animation;
+     * aktiviert auch den "Start"-Button wieder und
+     * deaktiviert den "Stopp"-Button (der das Event
+     * ausgelöst hat).
      * <br><br>
      *
      * @param view  Button, der Event ausgelöst hat.
