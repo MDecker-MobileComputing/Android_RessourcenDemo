@@ -24,13 +24,13 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tween Animation"
+        android:text="Tween-Animation"
         android:onClick="onButtonTweenAnimation" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Frame Animation"
+        android:text="Frame-Animation"
         android:onClick="onButtonFrameAnimation" />
 
     <Button
