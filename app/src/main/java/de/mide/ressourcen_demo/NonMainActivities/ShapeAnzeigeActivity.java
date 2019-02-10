@@ -17,6 +17,7 @@ public class ShapeAnzeigeActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shape_anzeige);
     }

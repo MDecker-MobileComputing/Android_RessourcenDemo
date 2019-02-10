@@ -2,8 +2,11 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.mide.ressourcen_demo"
-    android:installLocation="auto">
+    android:installLocation="auto"    
+    android:versionCode="2"
+    android:versionName="1.1 (Februar 2019)">
 
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,7 +17,7 @@
 
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action   android:name="android.intent.action.MAIN" />
+                <action   android:name="android.intent.action.MAIN"       />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
