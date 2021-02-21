@@ -53,7 +53,6 @@ public class ArrayRessourcenActivity extends Activity {
 
         stringArray = res.getStringArray( R.array.staedte_in_deutschland );
 
-
         // Zufälliges Element aus Array auswählen
         int anzElement   = stringArray.length;
         Random random    = new Random();
