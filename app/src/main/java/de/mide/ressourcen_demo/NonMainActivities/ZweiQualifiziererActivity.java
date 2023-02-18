@@ -13,7 +13,7 @@ import de.mide.ressourcen_demo.R;
 
 /**
  * Von der Activity geladene Layout-Datei enthält eine Grafik
- * in einem {@link ImageView}-Element, die sowohl von der aktuellen
+ * in einem {@code ImageView}-Element, die sowohl von der aktuellen
  * Systemsprache als auch der Ausrichtung des Displays (hochkant
  * oder quer) abhängt.
  * <br><br>

@@ -1,5 +1,7 @@
 # Android-App "Ressourcen-Demo"
 
+<br>
+
 Android app demonstrating the usage of several types of resources.
 <br>
 
@@ -8,8 +10,10 @@ Identifiers (names for classes, variables and methods), (JavaDoc) comments and U
 <br>
 
 ----
-## Screenshots
 
+## Screenshots ##
+
+<br>
 
 ![Screenshot 1](screenshot_1.png)  
 
@@ -28,6 +32,11 @@ Identifiers (names for classes, variables and methods), (JavaDoc) comments and U
 <br>
 
 ----
-# License
+
+## License ##
+
+<br>
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License).
+
+<br>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <array name="staedte_in_deutschland">
-      <item>Karlsruhe</item>
-      <item>Walldorf</item>
-      <item>Mannheim</item>
-      <item>Berlin</item>
-  </array>
+    <array name="staedte_in_deutschland">
+        <item>Karlsruhe</item>
+        <item>Walldorf</item>
+        <item>Mannheim</item>
+        <item>Berlin</item>
+    </array>
 
 </resources>
