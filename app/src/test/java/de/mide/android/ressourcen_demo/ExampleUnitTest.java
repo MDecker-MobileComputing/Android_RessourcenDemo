@@ -1,4 +1,4 @@
-package de.mide.ressourcen_demo;
+package de.mide.android.ressourcen_demo;
 
 import org.junit.Test;
 

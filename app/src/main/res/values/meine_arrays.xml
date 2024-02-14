@@ -2,10 +2,12 @@
 <resources>
 
     <array name="staedte_in_deutschland">
+
         <item>Karlsruhe</item>
         <item>Walldorf</item>
         <item>Mannheim</item>
         <item>Berlin</item>
+
     </array>
 
 </resources>

@@ -1,4 +1,4 @@
-package de.mide.ressourcen_demo;
+package de.mide.android.ressourcen_demo;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("de.mide.ressourcen_demo", appContext.getPackageName());
+        assertEquals("de.mide.android.ressourcen_demo", appContext.getPackageName());
     }
 }
