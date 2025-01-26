@@ -1,16 +1,16 @@
-package de.mide.android.ressourcen_demo;
+package de.eldecker.ressourcen_demo;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import de.mide.android.ressourcen_demo.NonMainActivities.ArrayRessourcenActivity;
-import de.mide.android.ressourcen_demo.NonMainActivities.FrameAnimationsActivity;
-import de.mide.android.ressourcen_demo.NonMainActivities.TweenAnimationsActivity;
-import de.mide.android.ressourcen_demo.NonMainActivities.ShapeAnzeigeActivity;
-import de.mide.android.ressourcen_demo.NonMainActivities.SprachanpassungsActivity;
-import de.mide.android.ressourcen_demo.NonMainActivities.ZweiQualifiziererActivity;
+import de.eldecker.ressourcen_demo.activites.ArrayRessourcenActivity;
+import de.eldecker.ressourcen_demo.activites.FrameAnimationsActivity;
+import de.eldecker.ressourcen_demo.activites.ShapeAnzeigeActivity;
+import de.eldecker.ressourcen_demo.activites.SprachanpassungsActivity;
+import de.eldecker.ressourcen_demo.activites.TweenAnimationsActivity;
+import de.eldecker.ressourcen_demo.activites.ZweiQualifiziererActivity;
 
 
 /**

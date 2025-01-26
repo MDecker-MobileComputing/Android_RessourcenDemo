@@ -1,4 +1,4 @@
-package de.mide.android.ressourcen_demo.NonMainActivities;
+package de.eldecker.ressourcen_demo.activites;
 
 import android.app.Activity;
 import android.graphics.drawable.AnimationDrawable;
@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import de.mide.android.ressourcen_demo.R;
+import de.eldecker.ressourcen_demo.R;
 
 
 /**

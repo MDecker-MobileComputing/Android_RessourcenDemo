@@ -1,9 +1,9 @@
-package de.mide.android.ressourcen_demo.NonMainActivities;
+package de.eldecker.ressourcen_demo.activites;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import de.mide.android.ressourcen_demo.R;
+import de.eldecker.ressourcen_demo.R;
 
 
 /**

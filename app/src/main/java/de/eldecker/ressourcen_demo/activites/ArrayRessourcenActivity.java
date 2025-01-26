@@ -1,18 +1,14 @@
-package de.mide.android.ressourcen_demo.NonMainActivities;
+package de.eldecker.ressourcen_demo.activites;
 
 import android.app.Activity;
 import android.content.res.Resources;
-import android.graphics.drawable.AnimationDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.util.Random;
 
-import de.mide.android.ressourcen_demo.R;
+import de.eldecker.ressourcen_demo.R;
 
 
 /**

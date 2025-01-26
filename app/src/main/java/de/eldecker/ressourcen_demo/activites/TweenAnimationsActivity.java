@@ -1,4 +1,4 @@
-package de.mide.android.ressourcen_demo.NonMainActivities;
+package de.eldecker.ressourcen_demo.activites;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import de.mide.android.ressourcen_demo.R;
+import de.eldecker.ressourcen_demo.R;
 
 
 /**
