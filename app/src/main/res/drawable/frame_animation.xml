@@ -29,6 +29,8 @@
     <item android:drawable="@drawable/animat_24" android:duration="250" />
     <item android:drawable="@drawable/animat_25" android:duration="250" />
     <item android:drawable="@drawable/animat_26" android:duration="250" />
-    
+
+    <!-- duration: Anzeigedauer eines Einzelbildes in Millisekunden -->
+
 </animation-list>    
     
