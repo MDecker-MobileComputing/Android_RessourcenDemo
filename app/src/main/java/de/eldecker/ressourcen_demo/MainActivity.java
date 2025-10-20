@@ -7,6 +7,7 @@ import android.view.View;
 
 import de.eldecker.ressourcen_demo.activites.ArrayRessourcenActivity;
 import de.eldecker.ressourcen_demo.activites.FrameAnimationsActivity;
+import de.eldecker.ressourcen_demo.activites.SchriftActivity;
 import de.eldecker.ressourcen_demo.activites.ShapeAnzeigeActivity;
 import de.eldecker.ressourcen_demo.activites.SprachanpassungsActivity;
 import de.eldecker.ressourcen_demo.activites.TweenAnimationsActivity;
@@ -110,6 +111,19 @@ public class MainActivity extends Activity {
     public void onButtonZweiQualifizierer(View view) {
 
         Intent intent = new Intent(this, ZweiQualifiziererActivity.class);
+        startActivity(intent);
+    }
+
+
+    /**
+     * Button-Event-Handler-Methode, lädt {@link SchriftActivity} zur
+     * Demonstration als Ressourcendatei eingebundener Schriftart (Font).
+     *
+     * @param view  Button, der Event ausgelöst hat.
+     */
+    public void onButtonSchriftart(View view) {
+
+        Intent intent = new Intent(this, SchriftActivity.class);
         startActivity(intent);
     }
 

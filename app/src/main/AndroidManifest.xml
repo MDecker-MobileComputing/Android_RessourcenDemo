@@ -38,6 +38,8 @@
 
         <activity android:name=".activites.ZweiQualifiziererActivity" />
 
+        <activity android:name=".activites.SchriftActivity" />
+
     </application>
 
 </manifest>
