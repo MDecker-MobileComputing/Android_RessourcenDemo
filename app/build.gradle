@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'de.eldecker.ressourcen_demo'
-    compileSdk 35
+    compileSdk 36
 
     defaultConfig {
         applicationId "de.eldecker.ressourcen_demo"
         minSdk 24
-        targetSdk 35
+        targetSdk 36
         versionCode 1
         versionName "1.0"
 

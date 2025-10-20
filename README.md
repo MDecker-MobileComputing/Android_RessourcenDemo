@@ -2,7 +2,8 @@
 
 <br>
 
-Android-App, die die Verwendung verschiedener Typen von Ressourcen demonstriert.
+Dieses Repo enthält eine Android-Studio-Projekt für eine native Android-App mit Java,
+die die Verwendung verschiedener Typen von Ressourcen demonstriert.
 
 <br>
 
@@ -12,7 +13,7 @@ Android-App, die die Verwendung verschiedener Typen von Ressourcen demonstriert.
 
 <br>
 
-![Screenshot 1](screenshot_1.png)  
+![Screenshot 1](screenshot_1.png)
 
 <br>
 
